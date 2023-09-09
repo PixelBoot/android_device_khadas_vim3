@@ -16,11 +16,11 @@ $(call inherit-product, vendor/lineage/config/common_mini_tablet_wifionly.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_BRAND := Radxa
-PRODUCT_DEVICE := radxa0_tab
-PRODUCT_MANUFACTURER := radxa
-PRODUCT_MODEL := Radxa Zero
-PRODUCT_NAME := lineage_radxa0_tab
+PRODUCT_BRAND := Khads
+PRODUCT_DEVICE := vim3_tab
+PRODUCT_MANUFACTURER := khadas
+PRODUCT_MODEL := Khadas VIM3
+PRODUCT_NAME := lineage_vim3_tab
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=adt3 \

@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-ifneq ($(filter radxa0 radxa0_tab, $(TARGET_DEVICE)),)
+ifneq ($(filter vim3 vim3_tab, $(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 include $(call all-makefiles-under,$(LOCAL_PATH))
